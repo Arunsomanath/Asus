@@ -1,0 +1,760 @@
+
+@import url('https://fonts.cdnfonts.com/css/tt-norms-pro');
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family:'Segoe UI',"PingFangHK", Verdana, sans-serif,"Microsoft JhengHei",Arial, Helvetica, sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif,Arial, Helvetica, sans-serif;
+    font-family: 'TT Norms Pro', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+}
+
+.header_1{
+    background: #fff;
+    height: 36px;
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    
+}
+.rog{
+    margin-left: 140px;
+    margin-right: 15px;
+    padding-top: 10px;
+    filter: grayscale(100% );
+}
+.rog:hover{
+    filter: grayscale(0% );
+    cursor: pointer;
+}
+        
+
+#vl{
+    width: 1.5px;
+    height: 16px;
+    background-color: rgb(205, 199, 199);
+    margin-left: 10px;
+    margin-top: -15px;
+    display: inline-block;
+}
+
+#pro{
+    margin-left: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    filter: grayscale(100% );
+}
+#pro:hover{
+    filter: grayscale(0% );
+    cursor: pointer;
+}
+#iot{
+    margin-left: 8px;
+    padding-left: 15px;
+    filter: grayscale(60% );
+    display: inline-block;
+}
+
+#iot:hover{
+    filter: grayscale(0% );
+    cursor: pointer;
+}
+ul{
+    display:flex;
+    justify-content :space-evenly;
+    list-style: none;
+}
+#game{
+    margin-left: 1131px;
+    margin-top: -24px;
+}
+#bsns{
+    margin-left: -113px;
+    margin-top: -24px;
+}
+/*header1*/
+.line{
+    width: 100%;
+    height: 1.3px;
+    background-color: rgb(205, 199, 199);
+    display: relative;
+    margin-top: 3px ;
+
+}
+/*header 2*/
+.header_2{
+    background: #ffff;
+    height: 48px;
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+}
+#logo{
+    width:78px;
+    height: 16px;
+    margin-left: 140px;
+    margin-right: 15px;
+    padding-top: 15px;
+    filter: grayscale(100% );
+}
+#logo:hover{
+    filter: grayscale(0% );
+    cursor: pointer;
+}
+.li2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 265px;
+    margin-top: -21px;
+}
+#moh{
+   
+    font-size: 15px;
+    margin-right: 22px;
+    font-weight: 400;
+    font-family: arial;
+}
+#lp{
+   
+    font-size: 15px;
+    margin-right: 22px;
+    font-weight: 400;
+    font-family: arial;
+}
+
+#dd{
+   
+    font-size: 15px;
+    margin-right: 22px;
+    font-weight: 400;
+    font-family: arial;
+}
+
+#mc{
+   
+    font-size: 15px;
+    margin-right: 22px;
+    font-weight: 400;
+    font-family: arial;
+}
+
+#nis{
+   
+    font-size: 15px;
+    margin-right: 22px;
+    font-weight: 400;
+    font-family: arial;
+}
+
+#aces {
+   
+    font-size: 15px;
+    margin-right: 22px;
+    font-weight: 400;
+    font-family: arial;
+}
+
+.li3{
+    display: inline;
+    justify-content: space-between;
+    margin-right: -200px;
+}
+#support{
+    margin-left:1236px;
+    margin-top: -22px;
+
+}
+
+#search{
+    margin-top: -22px;
+    font-weight: 500;
+    }
+
+#user{
+    margin-top: -22px;
+    margin-right: 100px;
+}
+.line2{
+    width: 100%;
+    height: 1.3px;
+    background-color: rgb(205, 199, 199);
+    display: relative;
+    margin-top: -10px ;
+}
+.bluetag{
+    width:100% ;
+    height: 45px;
+    background: #015ec5;
+    align-items: center;
+}
+#tag1{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 500px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.image1{
+    height: 777px;
+    width: 100%;
+    background-image: url(Images/main\ header.webp);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 15px;
+             
+}
+#vivbook{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    padding-top: 80px;
+}
+#learn{
+    padding-top: 30px;
+    text-align: center;
+    color: #015ec5;
+    font-weight: 500;
+    
+}
+.image2{
+    height: 777px;
+    width: 100%;
+    background-image: url(Images/box2.webp);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+.container1{
+    display: flex;
+    margin-bottom: 10px;
+}
+.box3_1{
+    height: 580px;
+    width: 750px;
+    background-image:url(Images/box_3_1.webp) ;
+    background-position: center;
+    margin-left: 10px;
+}
+.box3_2{
+    height: 580px;
+    width: 750px;
+    background-image:url(Images/box_3_2.webp) ;
+    background-position: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container2{
+    display: flex;
+}
+.box4_1{
+    height: 580px;
+    width: 750px;
+    background-image:url(Images/box_4_1.webp) ;
+    background-position: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.box4_2{
+    height: 580px;
+    width: 744px;
+    background-image:url(Images/box_4_2.webp) ;
+    background-position: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#pro16{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    text-align: center; 
+    padding-top: 50px;   
+    color: rgb(78, 73, 73);
+  
+}
+#wow{
+text-align: center;
+font-weight: 400;
+color: rgb(78, 73, 73);
+}
+
+#zen{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    text-align: center; 
+    padding-top: 440px;   
+    color: rgb(78, 73, 73);
+  
+}
+#per{
+text-align: center;
+font-weight: 400;
+color: rgb(78, 73, 73);
+}
+.container3{
+    display:flex;
+}
+.box5_1{
+    height: 580px;
+    width: 750px;
+    background-image:url(Images/box_5_1.webp) ;
+    background-position: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#trend{
+    font-size: 35px;
+    font-family: 'TT Norms Pro';
+    font-weight: 400;
+    text-align: center; 
+    padding-top: 440px;   
+    color: rgb(78, 73, 73);
+}
+#paving{
+    text-align: center;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 300;
+    padding-top: 6px;
+}
+.box5_2{
+    height: 580px;
+    width: 745px;
+    background-image:url(Images/box_5_2.webp) ;
+    background-position: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#expert{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    text-align: center; 
+    padding-top: 50px;   
+    color: rgb(129, 166, 218);
+    font-size: 26px;
+}
+#etome{
+text-align: center;
+font-weight: 400;
+color: rgb(78, 73, 73);
+padding-top: 10px;
+}
+.whitespace{
+    height: 150px;
+    width: 100%;
+    background-color: #fff;
+}
+#campaign{
+    color: black;
+    font-size: 40px;
+    font-family: 'TT Norms Pro', sans-serif;
+    font-weight:300;
+    text-align: center;
+    padding-top: 53px;
+}
+#see{
+    padding-top: 20px;
+    text-align: center;
+    color: #015ec5;
+    font-weight: 500;
+}
+.container4{
+    height: 320px;
+    width: 1364px;
+    margin-left: 78px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    overflow: hidden;    
+}
+.box6_1{
+    width: 404px;
+    height: 320px;
+    padding-right: 10px;
+    padding-left: 63px;
+}
+
+#pic1{
+    height: 252px;
+    width: 404px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+#img1{
+   height: 252px;
+   transition: 1s;
+}
+#img1:hover{
+    transform: scale(1.1);
+    height: 268px;
+    cursor: pointer;    
+}
+#para1{
+    height: 68px;
+    width: 404px;
+    background-color:#f5f5f5;  
+}
+.box6_2{
+    width: 404px;
+    height: 320px;
+    padding-right: 10px;
+}
+.box6_3{
+    width: 404px;
+    height: 320px;
+    padding-right: 10px;
+}
+#no1{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+#pic2{
+    height: 252px;
+    width: 404px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+#para2{
+    height: 68px;
+    width: 404px;
+    background-color:#f5f5f5; 
+}
+#pic3{
+    height: 252px;
+    width: 404px;
+    overflow: hidden;
+    
+}
+#para3{
+    height: 68px;
+    width: 404px;
+    background-color:#f5f5f5;    
+}
+#im{
+   height: 80px;
+   margin-top: 120px;
+   cursor: pointer;
+}
+#img3{
+    height: 252px;
+    transition: 1s;
+ }
+#img3:hover{
+     transform: scale(1.1);
+     height: 268px;
+     overflow: hidden;
+     cursor: pointer;
+ }
+ .whitespace2{
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+ }
+ .cont5_6{
+    display:flex;  
+ }
+ .container5{
+    height: 480px;
+    width: 780px;
+    margin-left: 10px ;
+    overflow: hidden;
+    display: flex;
+    padding-left: -20px;
+   
+ }
+.container5_img{
+    background-image: url(Images/box7_11.webp);
+    height: 480px;
+    width: 780px;
+    margin-left: 0px ;
+    background-position:center;
+    background-size: cover;
+    transition: 1s;
+   position: relative;
+   
+}
+.container5_img:hover{
+    transform: scale(1.1);
+    position: relative;
+}
+#hon{
+    justify-content: center;
+    position: absolute;
+    color: #fff;
+    font-size: large;
+   
+    margin-top: 402px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 0px;
+    background-color: rgba(0, 0, 0, 0.44);
+    padding: 16px 36px 20px 38px ;
+    
+}
+
+.container6{
+    height: 480px;
+    width: 777px;
+    background: #ffffff;
+    margin-left: 10px ;
+    margin-right: 5px;
+    display: inline;
+    overflow: hidden;
+    margin-bottom: 100px;
+    position: relative;
+    background-position:center;
+    background-size: cover;
+    transition: 1s;
+   position: relative;
+   
+}
+#para4{
+    font-size: 18px;
+    color: gray;
+}
+.cont6_1{
+    display: flex;
+    overflow: hidden;
+}
+.c6-1{
+    width: 364px ;
+    margin-right: 10px;
+    margin-bottom: 10px;
+   background-image: url(https://rog.asus.com/media/1694038745832.jpg);
+   background-position:center;
+   background-size: cover;
+   transition: 1s;
+  position: relative;
+  
+}
+.c6-1:hover{
+    transform: scale(1.1);
+    position: relative;
+ 
+}
+
+.c6-2{
+    width: 364px ;
+    height: 264px;
+    margin-bottom: 10px;
+   background-image: url(https://rog.asus.com/media/1692402002816.jpg);
+   background-position: center;
+   background-size: cover;
+
+}
+.cont6_2{
+    display: flex;
+}
+.c6-3{
+    width: 364px ;
+    margin-right: 10px;
+   background-image: url(https://rog.asus.com/media/1693358843516.jpg);
+   background-position: center;
+   background-size: cover;
+
+}
+.c6-4{
+    width: 364px ;
+    height: 240px;
+    
+   background-image: url(https://rog.asus.com/media/1692603820141.jpg   );
+   background-position: center;
+   background-size: cover;
+
+}
+#rak1{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.507);
+    text-align: center;
+    margin-top: 167px;
+    padding: 10px 0px 10px 0px;
+    font-weight: 800;
+}
+#prak1{
+    font-size: 17px;
+    font-weight: 100;
+    color: gray;
+}
+#rak2{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.507);
+    text-align: center;
+    margin-top: 167px;
+    padding: 10px 0px 10px 0px;
+    font-weight: 800;
+}
+#prak2{
+    font-size: 17px;
+    font-weight: 100;
+    color: gray;
+}
+#rak3{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.507);
+    text-align: center;
+    margin-top: 104px;
+    padding: 10px 0px 10px 0px;
+    font-weight: 800;
+}
+#prak3{
+    font-size: 17px;
+    font-weight: 100;
+    color: gray;
+}
+#rak4{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.507);
+    text-align: center;
+    margin-top: 104px;
+    padding: 10px 0px 10px 0px;
+    font-weight: 800;
+}
+#prak4{
+    font-size: 17px;
+    font-weight: 100;
+    color: #ffff;
+}
+.container_foot{
+    width: 1226 px;
+    height: 500px;
+     margin-left: 150px;
+     margin-right: 150px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+    }
+.foot{
+    color:rgba(88, 85, 85, 0.755);
+    width: 188px;
+    height: 500px;
+    background-color: white;
+    
+    line-height: 25px; 
+    font-size: 13px;
+}
+.footvalue{
+    color: rgb(0,0,0);
+}
+.container-sub{
+    width: 1216px;
+    height: 20px;
+   font-size: 14px;
+    background-color: white;
+    color:black;
+    display: grid;
+    grid-template-columns: 130px 1fr 204px 204px 189px;
+    justify-content: center;
+    align-items: start; 
+}
+.whitespace3{
+    width: 100%;
+    height:40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.sub{
+
+    width: 243px;
+    height: 20px;
+}
+#insta{
+    width: 70px;
+    height: 50px;
+}
+#metaa{
+    width: 62px;
+    height: 53px;
+}
+
+#discord{
+    width: 47px;
+    height: 47px;
+}
+#ytbe{
+    width: 56px;
+    height: 46px;
+}
+
+#linkd{
+    width: 55px;
+    height: 52px;
+}
+
+.whitespace4{
+    height: 150px;
+    width: 100%;
+    background-color: #fff;
+    margin-left: 629px;
+    display: flex;
+}
+.line3{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(205, 199, 199);
+    display: relative;
+    margin-top: -53px ;
+}
+.whitespace5{
+    width:1500px;
+    height: 90px;
+    display: flex;  
+}
+.vl1{
+    width: 1.5px;
+    height: 13px;
+    background-color: rgb(205, 199, 199);
+    margin-left: -1219px;
+    margin-top: 3px;
+    display: inline-block;
+}
+#t2{
+    margin-left:20px ;
+    margin-top: 40px;
+    color: gray;
+}
+#t3{
+    margin-left:20px ;
+    margin-top: 40px;
+    color: gray;
+}
+#t1{
+    margin-left:  100px;
+    margin-top: 40px;
+    color: gray;
+}
+#t4{
+    margin-left: 540px;
+    color: gray;
+    margin-top:40px ;
+}
+#bar{
+    width: 2px;
+    height: 16px;
+    background-color: #7c7c7c;
+    margin-top: 41px;
+    margin-left: 20px;
+}
+#bar1{
+    width: 2px;
+    height: 16px;
+    background-color: #7c7c7c;
+    margin-top: 42px;
+    margin-left: 20px;
+}
+#global{
+    height: 15px;
+}
+
+
+   
+
